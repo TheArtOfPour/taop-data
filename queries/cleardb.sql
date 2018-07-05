@@ -1,0 +1,13 @@
+DELETE FROM recipe_fermentables;
+DELETE FROM recipe_hops;
+DELETE FROM recipe_yeast;
+DELETE FROM styles;
+DELETE FROM recipes;
+DELETE FROM hops;
+DELETE FROM fermentables;
+DELETE FROM yeast;
+delete from sqlite_sequence where name='styles';
+delete from sqlite_sequence where name='recipes';
+delete from sqlite_sequence where name='hops';
+delete from sqlite_sequence where name='fermentables';
+delete from sqlite_sequence where name='yeast';
