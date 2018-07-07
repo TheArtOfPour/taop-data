@@ -1,5 +1,5 @@
 # taop-data
-Data and python helper scripts for TAP
+Data and a collection of helpful queries, models and scripts to view and generate training data.
 
 [Download recipes.db](https://drive.google.com/file/d/1nRoN_vn7Nnjykh5hNQrKPqU-JDBHeFU2/view?usp=sharing)
 
