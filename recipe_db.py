@@ -33,12 +33,12 @@ class RecipeDB:
     def get_recipe(self, recipe_id):
         c = self.conn.cursor()
 
-        c.execute('SELECT r.name, s.name as stylename, y.name as yeastname, og, fg, ibu, srm '
+        c.execute('SELECT s.name as stylename, y.name as yeastname, og, fg, ibu, srm '
                   'FROM recipes r JOIN styles s ON r.styleID = s.id JOIN recipe_yeast ry ON r.id = ry.recipeID '
                   'JOIN yeast y ON ry.yeastID = y.id WHERE r.id=?',
                   (recipe_id,))
-        name, stylename, yeastname, og, fg, ibu, srm = c.fetchone()
-        recipe = Recipe(name)
+        stylename, yeastname, og, fg, ibu, srm = c.fetchone()
+        recipe = Recipe('')
         recipe.og = og
         recipe.fg = fg
         recipe.srm = srm
@@ -83,8 +83,8 @@ class RecipeDB:
 
         # recipe
         c.execute(
-            'INSERT INTO recipes(name, styleID, og, fg, ibu, srm) VALUES (?, ?, ?, ?, ?, ?)',
-            (recipe.name, style_id, recipe.og, recipe.fg, recipe.ibu, recipe.srm,)
+            'INSERT INTO recipes(styleID, og, fg, ibu, srm) VALUES (?, ?, ?, ?, ?, ?)',
+            (style_id, recipe.og, recipe.fg, recipe.ibu, recipe.srm,)
         )
         recipe_id = c.lastrowid
 

@@ -6,4 +6,7 @@ __pycache__/
 # Generated
 backups
 refresh_db.py
+
+# Google Drive
+recipes.db
 training.db
