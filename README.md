@@ -1,6 +1,12 @@
 # taop-data
 Data and a collection of helpful queries, models and scripts to view and generate training data.
 
+Missing but useful data points:
+* Temperature(s)
+* Procedural
+* Ratings
+* Dates (plot evolution of styles over time)
+
 [Download recipes.db](https://drive.google.com/file/d/1nRoN_vn7Nnjykh5hNQrKPqU-JDBHeFU2/view?usp=sharing)
 
 
