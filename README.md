@@ -1,6 +1,8 @@
 # taop-data
 Data and a collection of helpful queries, models and scripts to view and generate training data.
 
+Run refresh_training.py to generate the training set.
+
 Missing but useful data points:
 * Temperature(s)
 * Procedural
