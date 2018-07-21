@@ -1,4 +1,6 @@
 # taop-data
+Data corpus for https://theartofpour.com
+
 Data and a collection of helpful queries, models and scripts to view and generate training data.
 
 Run refresh_training.py to generate the training set.
