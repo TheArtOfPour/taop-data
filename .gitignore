@@ -8,6 +8,4 @@ backups
 refresh_db.py
 
 # Google Drive
-recipes.db
-recipes_small.db
-training.db
+*.db
