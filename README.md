@@ -6,10 +6,10 @@ Data and a collection of helpful queries, models and scripts to view and generat
 Run refresh_training.py to generate the training set.
 
 Missing but useful data points:
-* Temperature(s)
+* Temperatures (mash and fermentation)
 * Procedural
-* Ratings
-* Dates (plot evolution of styles over time)
+* Ratings (quality indicators)
+* Dates (plot stylistic evolution over time)
 
 [Download recipes.db](https://drive.google.com/file/d/1nRoN_vn7Nnjykh5hNQrKPqU-JDBHeFU2/view?usp=sharing)
 
