@@ -7,7 +7,7 @@ Run refresh_training.py to generate the training set.
 
 Missing but useful data points:
 * Temperatures (mash and fermentation)
-* Procedural
+* Procedural (decoction, ingredient addition timing, cold crash)
 * Ratings (quality indicators)
 * Dates (plot stylistic evolution over time)
 
