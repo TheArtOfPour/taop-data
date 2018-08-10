@@ -3,7 +3,7 @@ Data for https://theartofpour.com
 
 Data and a collection of helpful queries, models and scripts to view and generate training data.
 
-Run refresh_training.py to generate the training set.
+Run training_set_db.py to initialize and refresh_training.py to refresh the training set.
 
 Missing but useful data points:
 * Temperatures (mash and fermentation)
