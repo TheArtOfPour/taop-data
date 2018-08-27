@@ -7,7 +7,7 @@ Run training_set_db.py to initialize and refresh_training.py to refresh the trai
 
 Missing but useful data points:
 * Temperatures (mash and fermentation)
-* Procedural (decoction, ingredient addition timing, cold crash)
+* Procedural (decoction, ingredient addition timing, cold crash, carbonation)
 * Ratings (quality indicators)
 * Dates (plot stylistic evolution over time)
 

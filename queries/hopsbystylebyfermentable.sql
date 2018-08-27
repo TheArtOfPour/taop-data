@@ -5,7 +5,7 @@ join recipes r on rh.recipeID = r.id
 join recipe_fermentables rf on r.id = rf.recipeID
 join fermentables f on rf.fermentableID = f.id
 where r.styleID = 4 -- american ipa
-and f.id = 27 -- golden promis
+and f.id = 27 -- golden promise
 group by rh.hopID
 --having count(styleID) > 2000
 order by ct desc;
